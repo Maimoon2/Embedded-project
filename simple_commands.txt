@@ -1,0 +1,25 @@
+# Robot Movement Commands (with exact delays in ms)
+# Total commands: 20
+# Format: COMMAND:DELAY_MS  (delay = real-world calibrated time)
+# Calibration: cm_per_pixel=1.0, robot_speed=20.0cm/s, turn_speed=90.0deg/s
+
+STOP
+PLANT
+FORWARD:7803  # 156.1cm
+STOP
+PLANT
+FORWARD:8100  # 162.0cm
+STOP
+PLANT
+LEFT:1000
+FORWARD:12202  # 244.0cm
+STOP
+PLANT
+LEFT:1000
+FORWARD:7556  # 151.1cm
+STOP
+PLANT
+FORWARD:8302  # 166.0cm
+STOP
+PLANT
+END

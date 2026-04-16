@@ -1,0 +1,156 @@
+{
+  "total_commands": 19,
+  "robot_config": {
+    "forward_speed": "SLOW",
+    "turn_speed": "MEDIUM",
+    "distance_per_command": 50,
+    "angle_per_turn": 90,
+    "stop_at_points": true,
+    "pause_duration": 2.0,
+    "cm_per_pixel": 1.0,
+    "robot_speed_cm_per_s": 20.0,
+    "turn_speed_deg_per_s": 90.0
+  },
+  "commands": [
+    {
+      "type": "FORWARD",
+      "distance_px": 156.05,
+      "distance_cm": 156.05,
+      "delay_ms": 7803,
+      "speed": "SLOW",
+      "from": [
+        39,
+        25
+      ],
+      "to": [
+        195,
+        29
+      ]
+    },
+    {
+      "type": "STOP",
+      "reason": "Reached target point"
+    },
+    {
+      "type": "PLANT",
+      "duration": 2.0,
+      "reason": "Planting seed"
+    },
+    {
+      "type": "FORWARD",
+      "distance_px": 162.0,
+      "distance_cm": 162.0,
+      "delay_ms": 8100,
+      "speed": "SLOW",
+      "from": [
+        195,
+        29
+      ],
+      "to": [
+        357,
+        29
+      ]
+    },
+    {
+      "type": "STOP",
+      "reason": "Reached target point"
+    },
+    {
+      "type": "PLANT",
+      "duration": 2.0,
+      "reason": "Planting seed"
+    },
+    {
+      "type": "TURN_LEFT",
+      "angle": 90,
+      "speed": "MEDIUM",
+      "delay_ms": 1010
+    },
+    {
+      "type": "FORWARD",
+      "distance_px": 244.03,
+      "distance_cm": 244.03,
+      "delay_ms": 12202,
+      "speed": "SLOW",
+      "from": [
+        357,
+        29
+      ],
+      "to": [
+        353,
+        273
+      ]
+    },
+    {
+      "type": "STOP",
+      "reason": "Reached target point"
+    },
+    {
+      "type": "PLANT",
+      "duration": 2.0,
+      "reason": "Planting seed"
+    },
+    {
+      "type": "TURN_LEFT",
+      "angle": 90,
+      "speed": "MEDIUM",
+      "delay_ms": 1015
+    },
+    {
+      "type": "FORWARD",
+      "distance_px": 151.12,
+      "distance_cm": 151.12,
+      "delay_ms": 7556,
+      "speed": "SLOW",
+      "from": [
+        353,
+        273
+      ],
+      "to": [
+        202,
+        267
+      ]
+    },
+    {
+      "type": "STOP",
+      "reason": "Reached target point"
+    },
+    {
+      "type": "PLANT",
+      "duration": 2.0,
+      "reason": "Planting seed"
+    },
+    {
+      "type": "FORWARD",
+      "distance_px": 166.05,
+      "distance_cm": 166.05,
+      "delay_ms": 8302,
+      "speed": "SLOW",
+      "from": [
+        202,
+        267
+      ],
+      "to": [
+        36,
+        271
+      ]
+    },
+    {
+      "type": "STOP",
+      "reason": "Reached target point"
+    },
+    {
+      "type": "PLANT",
+      "duration": 2.0,
+      "reason": "Planting seed"
+    },
+    {
+      "type": "STOP",
+      "reason": "Reached target point"
+    },
+    {
+      "type": "END",
+      "reason": "Path completed"
+    }
+  ]
+}
